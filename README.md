@@ -1,11 +1,11 @@
-# MISkewScrollView for SwiftUI
+# MISKewCarousel for SwiftUI
 
-The MISkewScrollView is a customizable SwiftUI component that provides carousel card layout view.
+The MISKewCarousel is a customizable SwiftUI component that provides carousel card layout view.
 
 [![CI Status](https://img.shields.io/badge/swift-5.0-brightgreen)](https://img.shields.io/badge/swift-5.0-brightgreen)
 [![Platform iOS](https://img.shields.io/badge/platform-iOS-red)](https://img.shields.io/badge/platform-iOS-red)
 <a href="https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nikunjprajapati95/Reading-Animation&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/44b16d6ddb96446b875d38bf2ec89b11"/></a>
-<a href="https://github.com/TusharSanchaniya-mi/MISkewScrollView/blob/main/LICENSE" style="pointer-events: stroke;" target="_blank">
+<a href="https://github.com/TusharSanchaniya-mi/MISKewCarousel/blob/main/LICENSE" style="pointer-events: stroke;" target="_blank">
 <img src="https://img.shields.io/badge/licence-MIT-orange">
 
 ## Requirements 🛠️
@@ -20,20 +20,20 @@ The MISkewScrollView is a customizable SwiftUI component that provides carousel 
 
 The [Swift Package Manager](https://www.swift.org/documentation/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
 
-Once you have your Swift package set up, adding MISkewScrollView as a dependency is as easy as adding it to the dependencies value of your Package.swift or the Package list in Xcode.
+Once you have your Swift package set up, adding MISKewCarousel as a dependency is as easy as adding it to the dependencies value of your Package.swift or the Package list in Xcode.
 
 ```
 dependencies: [
-    .package(url: "https://github.com/TusharSanchaniya-mi/MISkewScrollView", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/TusharSanchaniya-mi/MISKewCarousel", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
 ## CocoaPods
 
-[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate MISkewScrollView into your Xcode project using CocoaPods, specify it in your Podfile:
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate MISKewCarousel into your Xcode project using CocoaPods, specify it in your Podfile:
 
 ```ruby
-pod 'MISkewScrollView'
+pod 'MISKewCarousel'
 ```
 
 ## Key Features: ✨
@@ -44,19 +44,19 @@ Customizable: Easily customize the appearance of the card layout to match your a
 
 Interactive: Users can tap on tab bar items to switch between different views quickly. The interactive nature of the component enhances usability and navigation within your app.
 
-Responsive: The MISkewScrollView Tab is designed to be responsive and adapt to different screen sizes and orientations, ensuring consistent behavior across various devices.
+Responsive: The MISKewCarousel Tab is designed to be responsive and adapt to different screen sizes and orientations, ensuring consistent behavior across various devices.
 
 ## Example
 
 ```swift
 import SwiftUI
-import MISkewScrollView
+import MISKewCarousel
 
 struct ContainerView: View {
 
     var body: some View {
         VStack {
-            MISkewScrollView(collection: .constant(Array(0..<20))) {
+            MISKewCarousel(collection: .constant(Array(0..<20))) {
                 VStack {
                     Text("Test")
                 }
@@ -105,7 +105,7 @@ struct ContainerView: View {
 
 ## 📄 License
 
-MISkewScrollView is [MIT-licensed](/LICENSE).
+MISKewCarousel is [MIT-licensed](/LICENSE).
 
 If you use our open-source libraries in your project, please make sure to credit us and Give a star to www.mindinventory.com
 
