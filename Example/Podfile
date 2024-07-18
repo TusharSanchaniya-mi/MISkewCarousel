@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MISKewCarousel_Tests' do
+  pod 'MISKewCarousel', :path => '../'
+  
+  
+end
