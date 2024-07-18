@@ -40,11 +40,9 @@ pod 'MISKewCarousel'
 
 Smooth Animation: The carousel view provides smooth animation transitions of skew 3d effect.
 
-Customizable: Easily customize the appearance of the card layout to match your app's branding and design aesthetic. Customize colors, icons, and tab bar item text to suit your needs.
+Customizable: Easily customize the appearance of the card layout to match your app's branding and design aesthetic. Customize colors, icons, and card item view to suit your needs, made more flexible with generic type to get current card item whch is rendering currently in clauser.
 
-Interactive: Users can tap on tab bar items to switch between different views quickly. The interactive nature of the component enhances usability and navigation within your app.
-
-Responsive: The MISKewCarousel Tab is designed to be responsive and adapt to different screen sizes and orientations, ensuring consistent behavior across various devices.
+Responsive: The MISKewCarousel is designed to be responsive and adapt to different screen sizes.
 
 ## Example
 
