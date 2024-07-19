@@ -11,7 +11,7 @@ The MISKewCarousel is a customizable SwiftUI component that provides carousel ca
 ## Requirements 🛠️
 
 - iOS 17.0+
-- Swift 5.8+
+- Swift 5.10+
 - SwiftUI
 
 ## Installation ⚙️
