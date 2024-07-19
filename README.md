@@ -65,6 +65,11 @@ struct ContainerView: View {
 
 ```
 
+## Preview ✨
+
+https://github.com/user-attachments/assets/a0568b0a-2e84-48eb-a32c-d142fee23ab6
+
+
 ## 🙋 Author
 
 ## [MindInventory](https://www.mindinventory.com/)
