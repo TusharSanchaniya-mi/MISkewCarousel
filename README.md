@@ -50,13 +50,23 @@ Responsive: The MISKewCarousel is designed to be responsive and adapt to differe
 import SwiftUI
 import MISKewCarousel
 
+struct IdentifiableString: Identifiable {
+    let id: UUID
+    var string: String
+}
+
 struct ContainerView: View {
 
+    let names = ["Alice", "Bob", "Charlie", "David", "Peter", "Tony", "Mark", "Steve"].map { IdentifiableString(id: UUID(), string: $0) }
+    
     var body: some View {
         VStack {
-            MISKewCarousel(collection: .constant(Array(0..<20))) {
+            MISKewCarousel(collection: .constant(Array(0..<20))) { item in
                 VStack {
-                    Text("Test")
+                    Text("\(item.string)")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.white)
                 }
             }
         }

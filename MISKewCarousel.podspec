@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MISKewCarousel'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'The MISKewCarousel is a customizable SwiftUI component that provides carousel card layout view.'
   s.description      = <<-DESC
                       The MISKewCarousel is a SwiftUI component that provides carousel card layout view wit 3D skew effect to left and right cards which are at the edge of screen.
