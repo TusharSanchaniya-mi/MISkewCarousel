@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 
 
-struct MICarouselPageIndicator {
+struct MISKewCarouselPageIndicator {
     
     /// - Parameters:
     ///   - activeTint: Color for active indicator dot.
@@ -86,15 +86,26 @@ struct MICarouselConfig {
     var cardSpacing: CGFloat
     
     /// - Parameters:
-    ///   - cardShadow: `MIScrollCardStyle` type to configure shadow of the card..
+    ///   - cardShadow: `MIScrollCardStyle` type to configure shadow of the card.
     var cardShadow: MICarouselItemStyle
-    var indicator: MICarouselPageIndicator
+    
+    /// - Parameters:
+    ///   - indicator: `MISKewCarouselPageIndicator` type to configure page indicator style.
+    var indicator: MISKewCarouselPageIndicator
+    
+    /// - Parameters:
+    ///   - cardSkew: `CGFLoat` type to apply skew 3D effect of card item which are at the edge of screen at left and right side.
+    ///   - default: `-35.0`
     var cardSkew: CGFloat
+    
+    /// - Parameters:
+    ///   - innerPadding: `CGFLoat` type to apply padding between card and its inner content layout.
+    ///   - default: `5.0`
     var innerPadding: CGFloat
     
     init(cardSpacing: CGFloat = 15.0,
          cardShadow: MICarouselItemStyle = MICarouselItemStyle(),
-         indicator: MICarouselPageIndicator = MICarouselPageIndicator(),
+         indicator: MISKewCarouselPageIndicator = MISKewCarouselPageIndicator(),
          cardSkew: CGFloat = -35.0,
          innerPadding: CGFloat = 5.0
     ) {
@@ -105,3 +116,4 @@ struct MICarouselConfig {
         self.innerPadding = innerPadding
     }
 }
+

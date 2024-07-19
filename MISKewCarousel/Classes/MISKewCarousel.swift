@@ -118,7 +118,3 @@ struct MISKewCarousel<Content: View, Data: RandomAccessCollection>: View where D
         
     }
 }
-
-#Preview {
-    SkewDemoApp()
-}
