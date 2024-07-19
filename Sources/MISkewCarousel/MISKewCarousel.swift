@@ -111,9 +111,7 @@ public struct MISKewCarousel<Content: View, Data: RandomAccessCollection>: View 
                     }
                 }
             }
-            .background(.white.opacity(0.5))
-            
-            
+            .background(configuration.containerBackground)
         }
         
     }

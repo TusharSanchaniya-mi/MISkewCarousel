@@ -109,12 +109,18 @@ public struct MICarouselConfig {
     ///   - default: `.white`
     var cardBackground: Color
     
+    /// - Parameters:
+    ///   - containerBackground: `Color` type to apply background color to the container.
+    ///   - default: `.clear`
+    var containerBackground: Color
+    
     public init(cardSpacing: CGFloat = 15.0,
-         cardShadow: MICarouselItemStyle = MICarouselItemStyle(),
-         indicator: MISKewCarouselPageIndicator = MISKewCarouselPageIndicator(),
-         cardSkew: CGFloat = -35.0,
-         innerPadding: CGFloat = 5.0,
-         cardBackground: Color = .white
+                cardShadow: MICarouselItemStyle = MICarouselItemStyle(),
+                indicator: MISKewCarouselPageIndicator = MISKewCarouselPageIndicator(),
+                cardSkew: CGFloat = -35.0,
+                innerPadding: CGFloat = 5.0,
+                cardBackground: Color = .white,
+                containerBackground: Color = .clear
     ) {
         self.cardSpacing = cardSpacing
         self.cardShadow = cardShadow
@@ -122,5 +128,6 @@ public struct MICarouselConfig {
         self.cardSkew = cardSkew
         self.innerPadding = innerPadding
         self.cardBackground = cardBackground
+        self.containerBackground = containerBackground
     }
 }
